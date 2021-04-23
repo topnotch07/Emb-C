@@ -1,5 +1,5 @@
-## Cppcheck via CodeBlocks:
-Running cppcheck/vera++ analysis... please wait...
+# Cppcheck via CodeBlocks
+`Running cppcheck/vera++ analysis... please wait...
 Switching working directory to : D:\code\LTTS\Embedded\code\TestCode\
 Executable cppcheck: 'C:\Program Files\Cppcheck\cppcheck.exe'.
 Path to cppcheck: 'C:\Program Files\Cppcheck'.
