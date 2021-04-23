@@ -2,7 +2,7 @@
 ## Activity Overview
 ![Activity overview](https://github.com/topnotch07/Emb-C/blob/21ff3387b6632eca5258e9701a791304de616072/activity%20overview.jpg)]
 
-#### CI and Code Quality
+### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
