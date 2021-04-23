@@ -4,10 +4,10 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = Activity-1/main.c\
-Activity-1/src/user_utils.c
+src/user_utils.c
 
 # All header file paths
-INC = -I Activity-1/inc
+INC = -I inc
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
