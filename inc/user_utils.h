@@ -8,7 +8,6 @@
  * @date 2021-04-23
  * 
  */
-#include "project_config.h"
 #include <util/delay.h>
 
 /**
