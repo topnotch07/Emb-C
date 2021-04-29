@@ -13,7 +13,7 @@
 #define BAUD 9600
 #define F_CPU 16000000UL
 #define BAUD_RATE ((F_CPU)/(BAUD*16UL)-1)
-UART_init();
-UART_READ();
-UART_WRITE();
+void UART_init();
+void UART_READ();
+void UART_WRITE(char data);
 #endif // UART_H_INCLUDED
