@@ -6,7 +6,6 @@ BUILD_DIR = Build
 SRC =src/user_utils.c\
 src/AdcSensor.c\
 src/LedOnOff.c\
-src/ReadAdc.c\
 src/Registors.c\
 src/Uart.c\
 src/port.c
