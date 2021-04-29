@@ -4,7 +4,6 @@
 #include"port.h"
 #include<avr/interrupt.h>
 
-
 unsigned volatile flag=0,flag1=0;
 
 ISR(INT0_vect)
