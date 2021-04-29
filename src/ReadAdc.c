@@ -1,5 +1,7 @@
-#include <avr/io.h>
-
+#include"AdcSensor.h"
+#include"Uart.h"
+#include"Registors.h"
+#include"port.h"
 
 uint16_t ReadAdc(uint8_t ch)
     {
