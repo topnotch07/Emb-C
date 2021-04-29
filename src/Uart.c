@@ -1,8 +1,6 @@
 #include <avr/io.h>
 
-#define BAUD 9600
-#define F_CPU 16000000UL
-#define BAUD_RATE ((F_CPU)/(BAUD*16UL)-1)
+
 uint16_t value=BAUD_RATE;
 void UART_init()
 {
