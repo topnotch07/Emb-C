@@ -16,7 +16,7 @@
     
   }
 
-void out_PWM(uint16_t ADC)
+void out_PWM(int ADC)
 {
     if((ADC>=0) && (ADC<=209))
     {
