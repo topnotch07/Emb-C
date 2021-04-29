@@ -11,6 +11,6 @@
 #ifndef REGISTORS_H_INCLUDED
 #define REGISTORS_H_INCLUDED
 
-void Registors(void);
+void Registors(void); //Initializing PWM signal
 
 #endif // REGISTORS_H_INCLUDED
