@@ -1,6 +1,8 @@
 # Embedded Mini Project
-## Activity Overview
-![Activity overview](https://github.com/topnotch07/Emb-C/blob/21ff3387b6632eca5258e9701a791304de616072/activity%20overview.jpg)]
+|Activity-1|Activity-2|Activity-3|
+|:--:|:--:|:--:|
+|[!Activity1](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity-1/Simulation/CASE%2011.jpg)|[!Activity2](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity-2/activity-2.jpg)|[!Activity3](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity3/Activity-3.jpg)|
+
 
 ### CI and Code Quality
 
