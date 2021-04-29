@@ -12,5 +12,5 @@
 #define REGISTORS_H_INCLUDED
 
 void Registors(void); //Initializing PWM signal
-void out_PWM(int val);
+void out_PWM(int);
 #endif // REGISTORS_H_INCLUDED
