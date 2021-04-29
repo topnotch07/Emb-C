@@ -13,6 +13,7 @@
 #define ADCSENSOR_H_INCLUDED
 
 void AdcSesnor(void); // Optimizing ADC sesnsor and channel 
+unsigned short ReadAdc(unsigned char ch);
 
 
 #endif // ADCSENSOR_H_INCLUDED
