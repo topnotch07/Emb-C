@@ -37,6 +37,6 @@ char UART_READ();
  * 
  * @param data 
  */
-void UART_WRITE(char data);  //
+void UART_WRITE(char data);  
 
 #endif // UART_H_INCLUDED
