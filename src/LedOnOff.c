@@ -23,22 +23,4 @@ void LedOff()
 {
    PORTB&=~(1<<PB0);
 }
-int LedOnAndOff()
-{
-     while(1)
-    {
-        if(flag==1)
-        {
-            if(flag1==1)
-            {
-                Led_On();
-                flag1=0;
-            }
-            else
-            {
-                LedOff();
-            }
-            flag=0;
-        }
-    }
- }
+
