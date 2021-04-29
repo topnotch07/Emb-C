@@ -11,6 +11,6 @@
 #ifndef REGISTORS_H_INCLUDED
 #define REGISTORS_H_INCLUDED
 
-Registors();
+void Registors(void);
 
 #endif // REGISTORS_H_INCLUDED
