@@ -5,10 +5,10 @@
 
   void Registors()
   {
-        DDRD|=(1<<PD6); // setting B1 port as pwm output for timer1
+        DDRD|=(1<<PB1); // setting B1 port as pwm output for timer1
 
         TCCR1A |= (1<<COM1A1) | (1<<WGM11) | (1<<WGM10); //Enabling Fast PWM timer-16bit  (non-inverting mode) in channel A
-        TCCR1B |= (1<<WGM12)| (1<<CS11) | (1<<CS10);  // setting prescalar value of 64
+        TCCR1B |= (1<<WGM12)| (1<<CS12);  // setting prescalar value of 256
     
    /**TCCR0A|=(1<<COM0A1)|(1<<WGM00)|(1<<WGM01);  //Enabling Fast PWM timer-8bit (non-inverting mode) in channel A
     
