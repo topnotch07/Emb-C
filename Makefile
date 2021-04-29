@@ -3,8 +3,7 @@ PROJ_NAME = Activity
 BUILD_DIR = Build
 
 # All Source code files
-SRC =src/user_utils.c\
-src/AdcSensor.c\
+SRC =src/AdcSensor.c\
 src/LedOnOff.c\
 src/Registors.c\
 src/Uart.c\
