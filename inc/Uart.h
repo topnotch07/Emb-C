@@ -10,10 +10,33 @@
  */
 #ifndef UART_H_INCLUDED
 #define UART_H_INCLUDED
+
+/**
+ *@brief Defining MACROS to store the baud rate 
+ *
+ */
 #define BAUD 9600
 #define F_CPU 16000000UL
 #define BAUD_RATE ((F_CPU)/(BAUD*16UL)-1)
-void UART_init();
-char UART_READ();
-void UART_WRITE(char data);
+/**
+ * @brief function to initialise UART registers in asynchronous mode
+ * 
+ */
+
+void UART_init();            
+/**
+ * @brief Fnction to read the recieved data from the UART buffer
+ * 
+ * @return char 
+ */
+
+char UART_READ();            
+
+/**
+ * @brief function to transmit the data and write data to UART buffer
+ * 
+ * @param data 
+ */
+void UART_WRITE(char data);  //
+
 #endif // UART_H_INCLUDED
