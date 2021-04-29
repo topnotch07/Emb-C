@@ -13,7 +13,6 @@
 void LedOff(void);
 void Led_On(void);
 void port(void);
-void LedOnAndOff(void);
 
 #endif // PORT_H_INCLUDED
 
