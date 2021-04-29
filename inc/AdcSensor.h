@@ -12,7 +12,7 @@
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
 
-void AdcSesnor(void);
+void AdcSesnor(void); // Optimizing ADC sesnsor and channel 
 
 
 #endif // ADCSENSOR_H_INCLUDED
