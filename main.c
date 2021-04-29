@@ -34,6 +34,7 @@ int main()
             {
               Led_On();
               temp=ReadAdc(1);
+              out_PWM(temp);
               UART_READ(temp);
               UART_WRITE(temp);
               for(duty=0;duty<1024;duty++)
