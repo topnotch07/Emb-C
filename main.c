@@ -27,9 +27,7 @@ int main()
   
   while(1)
   {
-    if(flag==1)
-        {
-            if(flag1==1)
+     if(flag==1 && flag1==1)
             {
               Led_On();
               temp=ReadAdc(1);
@@ -41,13 +39,12 @@ int main()
                 OCR1A=duty;
               }
               flag1=0;
+         flag=0;
             }
             else
             {
                 LedOff();
             }
-            flag=0;
-        }
   }
   return 0;
 }
