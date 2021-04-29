@@ -3,8 +3,14 @@ PROJ_NAME = Activity
 BUILD_DIR = Build
 
 # All Source code files
-SRC = Activity-1/main.c\
-src/user_utils.c
+SRC =src/user_utils.c\
+src/AdcSensor.c\
+src/LedOnOff.c\
+src/ReadAdc.c\
+src/Registors.c\
+src/Uart.c\
+src/port.c
+
 
 # All header file paths
 INC = -I inc
