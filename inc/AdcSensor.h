@@ -8,6 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
+
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
 
