@@ -11,8 +11,8 @@
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
 
-void AdcSesnor();
-uint16_t ReadAdc();
+void AdcSesnor(void);
+uint16_t ReadAdc(uint8_t);
 
 
 #endif // ADCSENSOR_H_INCLUDED
