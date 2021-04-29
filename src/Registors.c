@@ -5,7 +5,45 @@
 
   void Registors()
   {
-    TCCR0A|=(1<<COM0A1)|(1<<WGM00)|(1<<WGM01);
-    TCCR0B|=(1<<CS00)|(1<<CS02);
-    DDRD|=(1<<PD6);
+        DDRD|=(1<<PD6); // setting B1 port as pwm output for timer1
+
+        TCCR1A |= (1<<COM1A1) | (1<<WGM11) | (1<<WGM10); //Enabling Fast PWM timer-16bit  (non-inverting mode) in channel A
+        TCCR1B |= (1<<WGM12)| (1<<CS11) | (1<<CS10);  // setting prescalar value of 64
+    
+   /**TCCR0A|=(1<<COM0A1)|(1<<WGM00)|(1<<WGM01);  //Enabling Fast PWM timer-8bit (non-inverting mode) in channel A
+    
+    TCCR0B|=(1<<CS00)|(1<<CS02); // setting prescalar value of 1024*/ 
+    
   }
+
+void out_PWM(uint16_t ADC)
+{
+    if((ADC>=0) && (ADC<=209))
+    {
+
+        OCR1A = 205; //20% duty cycle
+        
+    }
+    else if((ADC>=210) && (ADC<=509))
+    {
+
+        OCR1A = 410; //40% duty cycle
+        
+    }
+    else if((ADC>=510) && (ADC<=709))
+    {
+
+        OCR1A = 717;//70% duty cycle
+        
+    }
+    else if((ADC>=710) && (ADC<=1024))
+    {
+
+        OCR1A = 973; //95% duty cycle
+  
+    }
+    else
+    {
+        OCR1A = 0; //0% output
+    }
+}
