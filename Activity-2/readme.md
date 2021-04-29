@@ -5,4 +5,4 @@
   2.  ADC Channel is configured.
   3.  output of voltage is shown in probe
  
-  ![Activity2](https://github.com/topnotch07/Emb-C/blob/3d87214f0dd7b2bc5afb41be042d8aaa1cb60d99/Activity-2/activity2.jpg)
+  ![Activity2](https://github.com/topnotch07/Emb-C/blob/77473362f45d4087851604d8efbcad720a570069/Activity-2/activity-2.jpg)
