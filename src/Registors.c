@@ -2,7 +2,6 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
- unsigned volatile count=0;
   void Registors()
   {
         DDRD|=(1<<PB1); // setting B1 port as pwm output for timer1
@@ -18,6 +17,8 @@
 
 int out_PWM(unsigned short val)
 {
+  int count=0;
+
     if((val>=0) && (val<=209))
     {
 
