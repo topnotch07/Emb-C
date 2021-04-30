@@ -1,11 +1,9 @@
-#include"AdcSensor.h"
 #include"Uart.h"
 #include"Registors.h"
-#include"port.h"
+
 #include<avr/io.h>
 
-unsigned short value=BAUD_RATE;
-void UART_init()
+void UART_init(uint16_t value)
 {
 
     UBRR0H=(value>>8)&0x0ff;     //setting Baud rate
