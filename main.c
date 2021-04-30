@@ -5,16 +5,6 @@
 #include<avr/interrupt.h>
 #include<avr/io.h>
 
-unsigned volatile flag,flag1;
-
-ISR(INT0_vect)
-{
-    flag=1;
-}
-ISR(INT1_vect)
-{
-    flag1=1;
-}
 
 
 int main()
@@ -29,7 +19,7 @@ int main()
   sei();
   while(1)
   {
-     if(flag==1 && flag1==1)
+     if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1)))
             {
               Led_On();
               temp=ReadAdc(1);
