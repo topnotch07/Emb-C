@@ -16,7 +16,7 @@
     
   }
 
-void out_PWM(uint16_t val)
+int out_PWM(uint16_t val)
 {
     if((val>=0) && (val<=209))
     {
