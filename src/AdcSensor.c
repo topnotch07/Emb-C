@@ -2,6 +2,8 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
+#include<avr/io.h>
+
 void AdcSesnor(void)
     {
         ADMUX|=(1<<REFS0);    //ADMUX register and 0 Aref connected to AVCC internally in MCU
