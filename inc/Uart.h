@@ -29,6 +29,6 @@ void UART_init();
  * 
  * @param data 
  */
-void UART_WRITE(char data);  
+UART_WRITE(char data);  
 
 #endif // UART_H_INCLUDED
