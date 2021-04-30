@@ -2,7 +2,6 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
-#include<avr/interrupt.h>
 
  void port()
  {
@@ -12,8 +11,6 @@
 
     PORTD|=(1<<PD0); //configure pin PD2 as an input- DDRD-'0' and PORTD-'1'
     PORTD|=(1<<PD1); //configure pin PD3 as an input- DDRD-'0' and PORTD-'1'
-
-    
  }
 
 
