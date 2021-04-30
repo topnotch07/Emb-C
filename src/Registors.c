@@ -13,6 +13,7 @@
     TCCR0B|=(1<<CS00)|(1<<CS02); // setting prescalar value of 1024*/ 
     
   }
+
 char out_PWM(uint16_t val)
 {
   char count=0;
