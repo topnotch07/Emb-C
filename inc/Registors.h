@@ -10,7 +10,6 @@
  */
 #ifndef REGISTORS_H_INCLUDED
 #define REGISTORS_H_INCLUDED
-#include<avr/io.h>
 
 void Registors(void); //Initializing PWM signal
 unsigned char out_PWM(unsigned short val)
