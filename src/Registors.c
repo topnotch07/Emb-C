@@ -2,7 +2,7 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
-  void Registors()
+  void Registors(void)
   {
         DDRD|=(1<<PB1); // setting B1 port as pwm output for timer1
 
@@ -15,7 +15,7 @@
     
   }
 
-char out_PWM(unsigned short val)
+unsigned char out_PWM(unsigned short val)
 {
   char count=0;
 
