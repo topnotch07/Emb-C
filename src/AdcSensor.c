@@ -2,7 +2,7 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
-void AdcSesnor()
+void AdcSesnor(void)
     {
         ADMUX|=(1<<REFS0);    //ADMUX register and 0 Aref connected to AVCC internally in MCU
         ADCSRA|=(1<<ADEN)|(1<<ADPS0);    // Enabling ADC and setting the sampling frequency through ADCSRA registor
