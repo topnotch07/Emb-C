@@ -2,6 +2,7 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
+#include<avr/io.h>
 
 unsigned short value=BAUD_RATE;
 void UART_init()
