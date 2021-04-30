@@ -15,7 +15,7 @@ int main()
   UART_init(103);
  
   while(1)
-  (
+  {
    if(SENSOR_ON) //If switch_1 is ON
         {
           if(HEAT_ON) //If switch_2 is ON
