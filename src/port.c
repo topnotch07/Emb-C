@@ -3,7 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 
- void port()
+ void port(void)
  {
     DDRB |= (1<<PB0); //setting D port as output for led
     DDRD &=~(1<<PD0); // setting input obtain from button in occupancy of seat 
