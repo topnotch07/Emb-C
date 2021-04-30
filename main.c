@@ -3,7 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 #include<avr/io.h>
-
+ 
 uint16_t temp=0;
 char data=0;
 
@@ -18,7 +18,7 @@ int main()
   (
    if(SENSOR_ON) //If switch_1 is ON
         {
-            if(HEAT_ON) //If switch_2 is ON
+          if(HEAT_ON) //If switch_2 is ON
             {
                 ledstat(LED_ON);//LED is ON
                 temp=ReadAdc(1);
