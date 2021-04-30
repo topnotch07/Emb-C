@@ -3,7 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 #include<avr/io.h>
- 
+#include <stdint.h>
 uint16_t temp=0;
 char data=0;
 
