@@ -3,6 +3,7 @@
 |Activity-1|Activity-2|
 |:--:|:--:|
 |![Activity1](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity-1/Simulation/CASE%2011.jpg)|![Activity2](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity-2/activity-2.jpg)|
+
 |Activity-3|Activity-4|
 |:--:|:--:|
 |![Activity3](https://github.com/topnotch07/Emb-C/blob/86ff3a2b4d62db9e67b3aed17cb81d6a16a3d2dd/Activity3/Activity-3.jpg)|![Activity4](https://github.com/topnotch07/Emb-C/blob/0fce484b00dcbf9a594746f2e0d655b61f6d6090/Activity4/Activity-4.jpg)|
