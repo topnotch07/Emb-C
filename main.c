@@ -10,30 +10,30 @@ char data=0;
 
 int main()
 {
-  InitLED();
+  InitializeLED();
   AdcSesnor();
   Registors();
   UART_init(103);
  
   while(1)
   {
-   if(SENSOR_ON) //If switch_1 is ON
+   if(SEATSENSOR_ON ) //If switch_1 is ON
         {
-          if(HEAT_ON) //If switch_2 is ON
+          if(HEATSENSOR_ON) //If switch_2 is ON
             {
-                ledstat(LED_ON);//LED is ON
+                ledstatus(LED_ON);//LED is ON
                 temp=ReadAdc(1);
                 data=out_PWM(temp);
                 UART_WRITE(data);
             }
             else
             {
-              ledstat(LED_OFF);
+              ledstatus(LED_OFF);
             }
         }
         else
         {
-          ledstat(LED_OFF);//LED is OFF
+          ledstatus(LED_OFF);//LED is OFF
           OCR1A=0;
         }
 
