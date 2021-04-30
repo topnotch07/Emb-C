@@ -3,6 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 #include<avr/interrupt.h>
+#include<avr/io.h>
 
 unsigned volatile flag,flag1;
 
@@ -25,7 +26,7 @@ int main()
   Registors();
   UART_init();
   char data;
-  
+  sei();
   while(1)
   {
      if(flag==1 && flag1==1)
