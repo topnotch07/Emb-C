@@ -13,7 +13,7 @@
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
 
-void AdcSesnor(void); // Optimizing ADC sesnsor and channel 
+void AdcSesnor(); // Optimizing ADC sesnsor and channel 
 uint16_t ReadAdc(uint8_t char);
 
 
