@@ -1,2 +1,0 @@
-warning: source '..\..\..\Emb-C-main\src\main.c' is not a readable file or directory... skipping.
-D:/code/LTTS/Embedded/Emb-C-main/inc/port.h:38: warning: argument 'state' from the argument list of ledstatus has multiple @param documentation sections
