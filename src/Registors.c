@@ -1,7 +1,4 @@
-#include"AdcSensor.h"
-#include"Uart.h"
 #include"Registors.h"
-#include"port.h"
 #include<avr/io.h>
 
   void Registors(void)
@@ -16,8 +13,7 @@
     TCCR0B|=(1<<CS00)|(1<<CS02); // setting prescalar value of 1024*/ 
     
   }
-
-unsigned char out_PWM(unsigned short val)
+char out_PWM(uint16_t val)
 {
   char count=0;
 
