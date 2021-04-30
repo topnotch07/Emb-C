@@ -11,7 +11,7 @@
 #ifndef UART_H_INCLUDED
 #define UART_H_INCLUDED
 #include<avr/io.h>
-
+#include <stdint.h>
 /**
  * @brief function to initialise UART registers in asynchronous mode
  * 
