@@ -24,6 +24,7 @@ int main()
   unsigned int duty=0; 
   Registors();
   UART_init();
+  char data;
   
   while(1)
   {
@@ -31,19 +32,16 @@ int main()
             {
               Led_On();
               temp=ReadAdc(1);
-              out_PWM(temp);
-              UART_READ(temp);
-              UART_WRITE(temp);
-              for(duty=0;duty<1024;duty++)
-              {
-                OCR1A=duty;
-              }
+              data=out_PWM(temp);
+              UART_WRITE(data);
+              
               flag1=0;
-         flag=0;
+              flag=0;
             }
             else
             {
                 LedOff();
+                OCR1A=0;
             }
   }
   return 0;
