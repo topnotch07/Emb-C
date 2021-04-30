@@ -12,7 +12,7 @@
 
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
-
+#include <stdint.h>
 void AdcSesnor(); // Optimizing ADC sesnsor and channel 
 uint16_t ReadAdc(uint8_t ch);
 
