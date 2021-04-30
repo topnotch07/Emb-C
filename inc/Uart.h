@@ -23,7 +23,7 @@
  * 
  */
 
-void UART_init();            
+void UART_init(void);            
 /**
  * @brief function to transmit the data and write data to UART buffer
  * 
