@@ -12,7 +12,7 @@ int main()
   InitLED();
   AdcSesnor();
   Registors();
-  UART_init();
+  UART_init(103);
  
   while(1)
   (
@@ -28,6 +28,7 @@ int main()
             else
             {
               ledstat(LED_OFF);
+            }
         }
         else
         {
