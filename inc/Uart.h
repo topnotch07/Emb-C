@@ -25,14 +25,6 @@
 
 void UART_init();            
 /**
- * @brief Fnction to read the recieved data from the UART buffer
- * 
- * @return char 
- */
-
-char UART_READ();            
-
-/**
  * @brief function to transmit the data and write data to UART buffer
  * 
  * @param data 
