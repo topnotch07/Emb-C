@@ -17,4 +17,3 @@ void port(void);
 
 #endif // PORT_H_INCLUDED
 
-#include<avr/io.h>
