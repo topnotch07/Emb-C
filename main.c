@@ -2,20 +2,15 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
-#include<avr/interrupt.h>
-#include<avr/io.h>
-
-
 
 int main()
 {
   port();
   AdcSesnor();
   uint16_t temp=0;
-  unsigned int duty=0; 
   Registors();
   UART_init();
-  char data;
+  char data=0;
   sei();
   while(1)
   (
