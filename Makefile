@@ -5,7 +5,6 @@ BUILD_DIR = Build
 # All Source code files
 SRC =main.c\
 src/AdcSensor.c\
-src/LedOnOff.c\
 src/Registors.c\
 src/Uart.c\
 src/port.c
