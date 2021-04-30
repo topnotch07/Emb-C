@@ -14,7 +14,7 @@
 #define ADCSENSOR_H_INCLUDED
 
 void AdcSesnor(); // Optimizing ADC sesnsor and channel 
-unsigned short ReadAdc(unsigned char ch);
+uint16_t ReadAdc(uint8_t ch);
 
 
 #endif // ADCSENSOR_H_INCLUDED
