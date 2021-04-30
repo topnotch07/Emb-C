@@ -6,7 +6,6 @@
 
  void port()
  {
-
     DDRB |= (1<<PB0); //setting D port as output for led
     DDRD &=~(1<<PD2); // setting input obtain from button in occupancy of seat 
     DDRD &=~(1<<PD3); // setting input of a button Heater switch
