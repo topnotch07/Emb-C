@@ -15,7 +15,7 @@
 #include<avr/io.h>
 
 void AdcSesnor(); // Optimizing ADC sesnsor and channel 
-uint16_t ReadAdc(uint8_t char);
+uint16_t ReadAdc(uint8_t ch);
 
 
 #endif // ADCSENSOR_H_INCLUDED
