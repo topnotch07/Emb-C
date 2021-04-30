@@ -7,11 +7,10 @@ int main()
 {
   port();
   AdcSesnor();
-  uint16_t temp=0;
+  unsigned short temp=0;
   Registors();
   UART_init();
   char data=0;
-  sei();
   while(1)
   (
     if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1))
