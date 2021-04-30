@@ -15,7 +15,7 @@
     
   }
 
-int out_PWM(int val)
+char out_PWM(unsigned short val)
 {
   int count=0;
 
