@@ -2,7 +2,7 @@
 #include"Uart.h"
 #include"Registors.h"
 #include"port.h"
-
+ unsigned volatile count=0;
   void Registors()
   {
         DDRD|=(1<<PB1); // setting B1 port as pwm output for timer1
@@ -16,34 +16,41 @@
     
   }
 
-void out_PWM(int val)
+void out_PWM(uint16_t val)
 {
     if((val>=0) && (val<=209))
     {
 
-        OCR1A = 205; //20% duty cycle
-        
+        OCR1A = 205;//20% duty cycle
+        count=20;
+        _delay_ms(20);
     }
     else if((val>=210) && (val<=509))
     {
 
         OCR1A = 410; //40% duty cycle
-        
+        count=25;
+        _delay_ms(20);
     }
     else if((val>=510) && (val<=709))
     {
 
         OCR1A = 717;//70% duty cycle
-        
+        count=29;
+        _delay_ms(20);
     }
     else if((val>=710) && (val<=1024))
     {
 
         OCR1A = 973; //95% duty cycle
-  
+        count=33;
+        _delay_ms(20);
     }
     else
     {
         OCR1A = 0; //0% output
+        count=0;
     }
+    return count;
 }
+
