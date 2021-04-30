@@ -7,7 +7,6 @@
  * @param state Pin level to which the LED Pin should be set
  */
 
-
 void ledstatus(uint8_t state)
 {
 	LED_PORT = (state << LED_PIN);
