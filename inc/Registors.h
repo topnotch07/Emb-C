@@ -13,5 +13,5 @@
 #include<avr/io.h>
 
 void Registors(void); //Initializing PWM signal
-uint8_t out_PWM(uint16_t val)
+unsigned char out_PWM(unsigned short val)
 #endif // REGISTORS_H_INCLUDED
