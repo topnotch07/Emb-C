@@ -16,7 +16,7 @@
     
   }
 
-int out_PWM(uint16_t val)
+int out_PWM(unsigned short val)
 {
     if((val>=0) && (val<=209))
     {
