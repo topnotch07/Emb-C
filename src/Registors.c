@@ -15,7 +15,7 @@
     
   }
 
-char out_PWM(uint16_t val)
+char out_PWM(unsigned short val)
 {
   char count=0;
 
