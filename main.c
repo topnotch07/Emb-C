@@ -18,22 +18,19 @@ int main()
   char data;
   sei();
   while(1)
-  {
-     if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1)))
-            {
-              Led_On();
-              temp=ReadAdc(1);
-              data=out_PWM(temp);
-              UART_WRITE(data);
-              
-              flag1=0;
-              flag=0;
-            }
-            else
-            {
-                LedOff();
-                OCR1A=0;
-            }
+  (
+    if(!(PIND&(1<<PD0)) && !(PIND&(1<<PD1))
+        {
+          Led_On();
+          temp=ReadAdc(1);
+          data=out_PWM(temp);
+          UART_WRITE(data);
+         }
+        else
+        {
+          LedOff();
+          OCR1A=0;
+        }
   }
   return 0;
 }
