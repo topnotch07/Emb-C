@@ -15,9 +15,9 @@
     
   }
 
-char out_PWM(unsigned short val)
+char out_PWM(uint16_t val)
 {
-  int count=0;
+  char count=0;
 
     if((val>=0) && (val<=209))
     {
