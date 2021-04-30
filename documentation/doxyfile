@@ -96,15 +96,16 @@ WARN_LOGFILE            = "D:\code\LTTS\Embedded\code\Final\doxygen\doxygen.log"
 # configuration options related to the input files
 #---------------------------------------------------------------------------
 INPUT                  = \
-	"..\..\..\Emb-C-main\src\Uart.h" \
 	"..\..\..\Emb-C-main\src\Uart.c" \
-	"..\..\..\Emb-C-main\src\AdcSensor.h" \
+	"..\..\..\Emb-C-main\inc\port.h" \
 	"..\..\..\Emb-C-main\src\port.c" \
 	"..\..\..\Emb-C-main\src\main.c" \
-	"..\..\..\Emb-C-main\src\port.h" \
-	"..\..\..\Emb-C-main\src\Registors.h" \
+	"..\..\..\Emb-C-main\main.c" \
+	"..\..\..\Emb-C-main\inc\Registors.h" \
+	"..\..\..\Emb-C-main\inc\AdcSensor.h" \
 	"..\..\..\Emb-C-main\src\Registors.c" \
-	"..\..\..\Emb-C-main\src\AdcSensor.c" 
+	"..\..\..\Emb-C-main\src\AdcSensor.c" \
+	"..\..\..\Emb-C-main\inc\Uart.h" 
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          =
 RECURSIVE              = NO
