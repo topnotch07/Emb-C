@@ -3,7 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 
-uint16_t value=BAUD_RATE;
+unsigned short value=BAUD_RATE;
 void UART_init()
 {
 
