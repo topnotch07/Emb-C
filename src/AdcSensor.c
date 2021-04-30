@@ -6,6 +6,7 @@ void AdcSesnor(void)
         ADMUX|=(1<<REFS0);    //ADMUX register and 0 Aref connected to AVCC internally in MCU
         ADCSRA|=(1<<ADEN)|(7<<ADPS0);    // Enabling ADC and setting the sampling frequency through ADCSRA registor
     }
+
 uint16_t  ReadAdc(uint8_t ch)
     {
         ADMUX&=0xf8;  // Selecting channel 0 by setting 1 to all ADMUX register except Bit 0,1,2
