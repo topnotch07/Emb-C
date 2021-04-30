@@ -12,7 +12,6 @@
 
 #ifndef ADCSENSOR_H_INCLUDED
 #define ADCSENSOR_H_INCLUDED
-#include<avr/io.h>
 
 void AdcSesnor(); // Optimizing ADC sesnsor and channel 
 unsigned short ReadAdc(unsigned char ch);
