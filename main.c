@@ -3,6 +3,7 @@
 #include"Registors.h"
 #include"port.h"
 #include<avr/interrupt.h>
+#include<avr/io.h>
 
 unsigned volatile flag=0,flag1=0;
 
