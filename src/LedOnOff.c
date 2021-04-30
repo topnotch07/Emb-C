@@ -3,13 +3,13 @@
 #include"Registors.h"
 #include"port.h"
 
-void Led_On()
+void Led_On(void)
 {
 
     PORTB|=(1<<PB0); //Led On at mentioned Pin(PB0)
 }
 
-void LedOff()
+void LedOff(void)
 {
    PORTB&=~(1<<PB0); // Led turn OFF 
 }
